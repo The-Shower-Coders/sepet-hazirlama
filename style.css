@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.center {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.inp {
+    width: fit-content;
+    height: 50px;
+    /* Center vertically */
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inp * {
+    text-align: center;
+}
+
+.inp div input {
+    width: 210px;
+    height: 30px;
+}
+
+#list span:nth-child(1) {
+    margin-top: 5px;
+}
+
+.inp div div#result {
+    width: 200px;
+    height: 50px;
+}
+
+
+.resout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: green;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
